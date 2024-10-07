@@ -277,7 +277,7 @@ export class ParticleContainer extends ViewContainer implements Instruction
     }
 
     /** @private */
-    public override updateBounds(): void { /* empty */ }
+    protected override updateBounds(): void { /* empty */ }
 
     /**
      * Destroys this sprite renderable and optionally its texture.
